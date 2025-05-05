@@ -1,0 +1,9 @@
+# path: docker-compose.yml
+services:
+  namecheap-manager:
+    build: .
+    env_file:
+      - .env
+    volumes:
+      - .:/app       # hot‑reload in dev
+    tty: true        # keep container open for CLI use

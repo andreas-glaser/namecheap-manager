@@ -1,0 +1,9 @@
+# path: .dockerignore
+node_modules
+npm-debug.log*
+.DS_Store
+tests
+.idea
+README.md
+.git
+.gitignore

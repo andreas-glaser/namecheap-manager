@@ -1,0 +1,7 @@
+# path: .gitignore
+.idea/
+logs/
+node_modules/
+.env
+lsync.conf
+# End of .gitignore
