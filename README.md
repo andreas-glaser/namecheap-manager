@@ -6,23 +6,24 @@ A minimal CLI tool to manage Namecheap DNS records and domain privacy (WhoisGuar
 
 ## Features
 
-* **Domain listing**: View all domains in your Namecheap account.
-* **DNS management**: List, add, and delete DNS records for any domain.
-* **WhoisGuard (Domain Privacy)**: Check status, enable, and disable privacy protection.
-* **Docker wrapper**: Includes a lightweight `nc` script to run without installing Node.js locally.
+- **Domain listing**: View all domains in your Namecheap account.
+- **DNS management**: List, add, and delete DNS records for any domain.
+- **WhoisGuard (Domain Privacy)**: Check status, enable, and disable privacy protection.
+- **Docker wrapper**: Includes a lightweight `nc` script to run without installing Node.js locally.
 
 ## Table of Contents
 
-* [Installation](#installation)
-* [Configuration](#configuration)
-* [Usage](#usage)
+- [Installation](#installation)
+- [Configuration](#configuration)
+- [Usage](#usage)
 
-    * [CLI Commands](#cli-commands)
-    * [Docker Wrapper (`nc`)](#docker-wrapper-nc)
-* [Examples](#examples)
-* [Development](#development)
-* [Contributing](#contributing)
-* [License](#license)
+  - [CLI Commands](#cli-commands)
+  - [Docker Wrapper (`nc`)](#docker-wrapper-nc)
+
+- [Examples](#examples)
+- [Development](#development)
+- [Contributing](#contributing)
+- [License](#license)
 
 ## Installation
 
@@ -52,7 +53,7 @@ Create a `config.json` or use environment variables to provide your Namecheap AP
 ```json
 {
   "apiUser": "YOUR_API_USER",
-  "apiKey":  "YOUR_API_KEY",
+  "apiKey": "YOUR_API_KEY",
   "userName": "YOUR_ACCOUNT_USER",
   "clientIp": "YOUR_SERVER_IP",
   "endpoint": "https://api.namecheap.com/xml.response"
@@ -123,6 +124,7 @@ namecheap-manager privacy:disable example.com
    ```bash
    npm test
    ```
+
 2. **Lint & Format**
 
    ```bash
