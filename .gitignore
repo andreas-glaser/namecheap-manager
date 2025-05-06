@@ -2,6 +2,10 @@
 .idea/
 logs/
 node_modules/
-.env
 lsync.conf
+# Local config file with sensitive credentials
+config.json
+# Environment variables file
+.env
+
 # End of .gitignore

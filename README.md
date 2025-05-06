@@ -45,13 +45,6 @@ A minimal CLI tool to manage Namecheap DNS records and domain privacy (WhoisGuar
    chmod +x src/cli.js
    ```
 
-4. (Optional) **Install globally**
-
-   ```bash
-   npm link
-   # now you can use `namecheap-manager` from anywhere
-   ```
-
 ## Configuration
 
 Create a `config.json` or use environment variables to provide your Namecheap API credentials.
